@@ -51,6 +51,7 @@ saveScore = () => {
   localStorage.setItem("score", scoreBoard.textContent);
 };
 
-loadScore = () => {
-  scoreBoard.textContent = localStorage.getItem("score");
+newGame = () => {
+  startGame();
+  localStorage.removeItem("score", score);
 };

@@ -13,14 +13,9 @@ html {
 }
 
 body {
-  padding: 0;
   margin: 0;
   font-family: "Amatic SC", cursive;
 }
-
-/* .start {
-  align-content: center;
-} */
 
 h1 {
   text-align: center;
@@ -82,4 +77,13 @@ h3 {
 
 .portal.up .pickle {
   top: 0;
+}
+
+.start {
+  margin: 0.7%;
+  text-align: center;
+}
+.button {
+  border-radius: 10px;
+  margin-left: 1%;
 }
